@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import styled from 'styled-components';
+import { HashRouter, Route } from "react-router-dom";
+import SignUp from "./components/SignUp";
 
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
     <Container> 
       <Title>Life Style <br/>라이프 스타일</Title>
       <Content>
+        {/* <Link> */}
           <Button style={{marginBottom:'15px'}}>라이프 스타일 시작</Button>
+        {/* </Link> */}
           <Button style={{background: '#FF6B73', color: 'white'}}>기존 회원으로 로그인</Button>
           <SNS >
             <img src="../main/facebook.svg"/>
