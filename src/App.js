@@ -8,9 +8,8 @@ function App() {
       <Title>Life Style</Title>
       <div></div>
       <Content>
-        <Link>
-          <Button style={{ marginBottom: "15px" }}>라이프 스타일 시작</Button>
-        </Link>
+        <Button style={{ marginBottom: "15px" }}>라이프 스타일 시작</Button>
+
         <Button style={{ background: "#FF6B73", color: "white" }}>
           기존 회원으로 로그인
         </Button>
